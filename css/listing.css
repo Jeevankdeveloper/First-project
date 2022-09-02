@@ -1,0 +1,247 @@
+body {
+    margin: auto;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f2eeea;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Header css */
+header {
+    height: 60px;
+    width: 100%;
+    color: #fff;
+    /* border: 2px solid blueviolet; */
+    background-color: #3c2b2d;
+}
+
+#brand {
+    float: left;
+    margin-left: 2%;
+    margin-top: 1%;
+    font-size: 35px;
+
+}
+
+#brand>a {
+    color: #fff;
+}
+
+#social {
+    float: right;
+    margin-right: 1%;
+    margin-top: 1%;
+}
+
+.socialLogo {
+    height: 50px;
+}
+
+#content {
+    display: inline-block;
+    width: 85%;
+    margin-top: 2%;
+    margin-left: 10%;
+    /* border: 2px solid black; */
+}
+
+#filterDiv {
+    float: left;
+    width: 20%;
+    height: 600px;
+    border: 3px solid rgb(178, 173, 173);
+    border-radius: 10px;
+    margin-top: 35px;
+
+}
+
+#filterHeading {
+    height: 22px;
+    padding-left: 14px;
+    padding-bottom: 24px;
+    margin-top: -12px;
+    border-bottom: 1px solid #dbd9d9;
+}
+
+#cusineFilter {
+    height: 180px;
+    border-bottom: 1px solid #dbd9d9;
+}
+
+#costFilter {
+    height: 180px;
+    /* border-bottom: 1px solid #dbd9d9; */
+}
+
+#cusineFilter>h2 {
+    padding-left: 51px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+#costFilter>h2 {
+    padding-left: 51px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.radio {
+    margin-left: 5px;
+    margin: 5px;
+}
+
+
+
+#contentDiv {
+    float: left;
+    width: 75%;
+    height: auto;
+    margin-left: 2%;
+    margin-top: 10px;
+    /* border: 2px solid yellow; */
+}
+
+
+
+#restaurantName>input {
+    width: 90%;
+    height: 42px;
+    margin-left: 1%;
+    border-radius: 8px;
+    padding-left: 10px;
+    font-size: 17px;
+    border: 1px solid #dbd9d9;
+}
+
+.item {
+    height: 291px;
+    border-width: 0px 2px 3px 1px;
+    border-style: solid;
+    border-color: #dbd9d9;
+    margin-top: 25px;
+}
+
+.itemImg {
+    width: 34%;
+    height: 260px;
+    /* border: 1px solid green; */
+    float: left;
+    margin-left: 2%;
+
+}
+
+.itemImg>img {
+    width: 100%;
+    height: 260;
+    border-radius: 20px;
+}
+
+.itemDetails {
+    width: 61%;
+    height: 260px;
+    /* border: 1px solid rgb(0, 0, 128); */
+    float: left;
+    margin-left: 2%;
+}
+
+.itemHeading {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.itemSubHead {
+    margin-top: 18px;
+    line-height: 39px;
+    font-size: 23px;
+    color: #6e6868;
+}
+
+.menu1 {
+    height: 21px;
+    margin-top: 18px;
+}
+
+.cuisine1 {
+    height: 25px;
+    display: inline;
+    padding-left: 2%;
+    padding-right: 2%;
+    background-color: rgb(88, 192, 224);
+    color: white;
+    font-size: 19px;
+    border-radius: 3px;
+    float: left;
+}
+
+.cuisine2 {
+    height: 21px;
+    display: inline;
+    padding-left: 2%;
+    padding-right: 2%;
+    background-color: rgb(18, 125, 41);
+    color: white;
+    font-size: 19px;
+    border-radius: 3px;
+    margin-left: 2%;
+}
+
+
+.menu2 {
+    height: 21px;
+    margin-top: 12px;
+}
+
+.cuisine3 {
+    height: 26px;
+    display: inline;
+    padding-left: 2%;
+    padding-right: 2%;
+    background-color: rgb(221, 92, 75);
+    color: white;
+    font-size: 19px;
+    border-radius: 3px;
+    float: left;
+}
+
+.cuisine4 {
+    height: 21px;
+    display: inline;
+    padding-left: 2%;
+    padding-right: 2%;
+    background-color: rgb(29, 103, 149);
+    color: white;
+    font-size: 19px;
+    border-radius: 3px;
+    margin-left: 2%;
+}
+
+/* footer css */
+footer {
+    height: 120px;
+    width: 100%;
+    /* border: 2px solid brown; */
+    text-align: center;
+    margin-top: 5%;
+    background-color: #3c2b2d;
+    color: #fff;
+
+}
+
+.footDiv {
+    height: 30px;
+    width: 33%;
+    float: left;
+    border-right: 2px solid #fff;
+    margin-top: 18px;
+}
+
+#copy {
+    font-size: 30px;
+}
+
+.noborder {
+    border: none;
+}
