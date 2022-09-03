@@ -1,7 +1,6 @@
 body {
     margin: auto;
-    /* font-family: Georgia, 'Times New Roman', Times, serif; */
-    font-family: 'Open Sans', sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: #f2eeea;
 }
 
@@ -16,6 +15,7 @@ header {
     color: #fff;
     /* border: 2px solid blueviolet; */
     background-color: #3c2b2d;
+    position: fixed;
 }
 
 #brand {
@@ -43,7 +43,7 @@ header {
 #content {
     display: inline-block;
     width: 85%;
-    margin-top: 2%;
+    margin-top: 8%;
     margin-left: 10%;
     /* border: 2px solid black; */
 }
