@@ -67,7 +67,7 @@ header {
 }
 
 #cusineFilter {
-    height: 180px;
+    height: 191px;
     border-bottom: 1px solid #dbd9d9;
 }
 
@@ -77,7 +77,7 @@ header {
 }
 
 #cusineFilter>h2 {
-    padding-left: 51px;
+    padding-left: 27px;
     margin-top: 12px;
     margin-bottom: 12px;
 }
@@ -183,7 +183,7 @@ header {
     padding-right: 2%;
     background-color: rgb(18, 125, 41);
     color: white;
-    font-size: 19px;
+    font-size: 21px;
     border-radius: 3px;
     margin-left: 2%;
 }
@@ -213,7 +213,7 @@ header {
     padding-right: 2%;
     background-color: rgb(29, 103, 149);
     color: white;
-    font-size: 19px;
+    font-size: 21px;
     border-radius: 3px;
     margin-left: 2%;
 }
@@ -244,4 +244,188 @@ footer {
 
 .noborder {
     border: none;
+}
+
+@media screen and (min-width: 1201px) {
+    body {
+        background-color: #f2eeea;
+    }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+    body {
+        background-color: #b7e9c0;
+    }
+
+    #content {
+        width: 90%;
+        margin-left: 9%;
+    }
+
+    #filterDiv {
+        width: 21%;
+        height: 550px;
+    }
+
+    #costFilter>h2 {
+        padding-left: 36px;
+    }
+
+    #contentDiv {
+        width: 73%;
+    }
+
+    .item {
+        border-color: #a69797;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    body {
+        background-color: rgb(242, 242, 203);
+    }
+
+    #content {
+        width: 93%;
+        margin-left: 5%;
+    }
+
+    #filterDiv {
+        width: 23%;
+        height: 550px;
+    }
+
+    #cusineFilter>h2 {
+        padding-left: 7px;
+    }
+
+    #costFilter>h2 {
+        padding-left: 20px;
+    }
+
+    #contentDiv {
+        width: 73%;
+    }
+
+    .item {
+        height: 282px;
+        margin-left: 1%;
+    }
+
+    .itemImg>img {
+        height: 240px;
+    }
+
+    .itemSubHead {
+        margin-top: 13px;
+        line-height: 36px;
+        font-size: 22px;
+    }
+}
+
+@media screen and (min-width: 626px) and (max-width: 768px) {
+    body {
+        background-color: rgb(250, 158, 157);
+    }
+
+    #content {
+        width: 98%;
+        margin-left: 2%;
+    }
+
+    #filterDiv {
+        width: 23%;
+        height: 519px;
+    }
+
+    h1 {
+        font-size: 29px;
+    }
+
+    #cusineFilter>h2 {
+        padding-left: 1px;
+    }
+
+    #costFilter>h2 {
+        padding-left: 17px;
+    }
+
+    #contentDiv {
+        width: 73%;
+        margin-top: 19px;
+    }
+
+    .item {
+        height: 280px;
+    }
+
+    .itemHeading {
+        font-size: 30px;
+    }
+
+    .itemSubHead {
+        margin-top: 10px;
+        line-height: 30px;
+        font-size: 22px;
+    }
+
+    .itemImg>img {
+        width: 100%;
+        height: 238px;
+    }
+
+    .item {
+        height: 280px;
+    }
+
+    .cuisine1 {
+        font-size: 16px;
+        height: 19px;
+    }
+
+    .cuisine2 {
+        font-size: 16px;
+    }
+
+    .cuisine3 {
+        font-size: 16px;
+        height: 19px;
+    }
+
+    .cuisine4 {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 625px) {
+    #filterDiv {
+        width: 52%;
+        height: 446px;
+        margin-left: 35px;
+    }
+
+
+    #contentDiv {
+        width: 94%;
+        margin-top: 33px;
+    }
+
+    .item {
+        height: 290px;
+        margin-top: 35px;
+    }
+
+    .itemImg>img {
+        height: 207px;
+    }
+
+    .itemHeading {
+        font-size: 27px;
+    }
+
+    .itemSubHead {
+        margin-top: 22px;
+        line-height: 29px;
+        font-size: 21px;
+    }
 }

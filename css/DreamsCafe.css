@@ -186,6 +186,9 @@ footer {
         margin-left: 3%;
     }
 
+    figure {
+        margin-right: 7%;
+    }
 
     .figIcon {
         height: 115px;
@@ -194,6 +197,10 @@ footer {
 
     #fig3 {
         margin-left: 0%;
+    }
+
+    footer {
+        margin-top: 11%;
     }
 }
 
@@ -211,13 +218,17 @@ footer {
     }
 
     footer {
-        margin-top: 70%;
+        margin-top: 74%;
     }
 
     #contentDiv {
         margin-left: 1%;
         margin-top: 1px;
         width: 80%;
+    }
+
+    footer {
+        margin-top: 74%;
     }
 }
 
@@ -246,9 +257,8 @@ footer {
     }
 
     footer {
-        margin-top: 77%;
+        margin-top: 88%;
     }
-
 }
 
 @media screen and (max-width: 625px) {
@@ -313,6 +323,6 @@ footer {
     }
 
     footer {
-        margin-top: 100%;
+        margin-top: 115%;
     }
 }
